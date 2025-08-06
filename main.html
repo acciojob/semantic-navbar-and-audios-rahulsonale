@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Semantic Navbar & Audios</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<nav>
-		<ul>
-			<li><a href="https://www.asus.com/campaign/aura/global/Aura-creator.php">Asus Aura</a></li>
-			<li><a href="https://www.youtube.com/watch?v=a-wVHL0lpb0">Javascript</a></li>
-			<li><a href="https://course.acciojob.com/open-web-editor?question=5996f997-e577-4a36-8ead-a0aeff48082">accio</a></li>
-		</ul>
-	</nav>
-	<section>
-  <h1>3 Random Audios</h1>
 
-  <audio controls>
-	  <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg"/>
-  </audio>
-  <br>
+  <!-- Part 1: Semantic Navbar -->
+  <nav>
+    <ul>
+      <li><a href="https://www.asus.com/campaign/aura/global/Aura-creator.php">Asus Aura</a></li>
+      <li><a href="https://www.youtube.com/watch?v=a-wVHL0lpb0">Javascript</a></li>
+      <li><a href="https://course.acciojob.com/open-web-editor?question=5996f997-e577-4a36-8ead-a0aeff48082">Accio</a></li>
+    </ul>
+  </nav>
 
-  <audio  controls>
-	  <source src ="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/mpeg"/>
-  </audio>
-  <br>
+  <!-- Part 2: Audio Section -->
+  <section>
+    <h1>3 Random Audios</h1>
 
-  <audio controls>
-	  <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg"/>
-  </audio>
-</section>
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+    </audio>
+    <br>
 
-    <script type="text/javascript" src="./script.js">
-</script>
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+    </audio>
+    <br>
+
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/pang/paza-moduless.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <!-- JS Script -->
+  <script src="./script.js"></script>
 
 </body>
 
